@@ -1,0 +1,71 @@
+    1  pwd
+    2  cd C:/
+    3  cd nec
+    4  cd git/
+    5  pwd
+    6  clear
+    7  git init
+    8  git branch -m main
+    9  history 
+   10  history > text.txt
+   11  clear
+   12  git branch
+   13  ls 
+   14  ls -a
+   15  pwd
+   16  clear
+   17  pwd
+   18  ls
+   19  rm -rf text.txt 
+   20  ls
+   21  clear
+   22  ls
+   23  echo shyam > one.txt
+   24  cat one.txt
+   25  ls
+   26  ls -a
+   27  ls
+   28  ls
+   29  git status
+   30  git add one.txt
+   31  git status
+   32  git config --list
+   33  git config --global user.name Arun Janarthanan
+   34  git config --global user.email arunjv@gmail.com
+   35  git config --list
+   36  clear
+   37  git status
+   38  git commit -m "shyam and dad are commiting for the first time"
+   39  git status
+   40  git branch
+   41  clear
+   42  git log
+   43  echo Prasiddha > two.txt
+   44  git status
+   45  git add .
+   46  git status
+   47  git commit -m "second file for prasiddha"
+   48  git status
+   49  clear
+   50  git log
+   51  ls
+   52  git checkout f81b682c36baaa2aa51032d630606d768b270099
+   53  ls
+   54  git log
+   55  git checkout main
+   56  ls
+   57  git log
+   58  clear
+   59  git status
+   60  ls
+   61  echo shyam narayan > one.txt
+   62  cat one.txt 
+   63  echo "Arun Janarthanan" >> one.txt 
+   64  cat one.txt 
+   65  clear
+   66  git status
+   67  git commit -a -m "changes in one.txt"
+   68  clear
+   69  git log
+   70  cat one.txt 
+   71  history > hiss.txt
