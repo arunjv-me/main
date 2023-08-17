@@ -69,3 +69,71 @@
    69  git log
    70  cat one.txt 
    71  history > hiss.txt
+   72  git status
+   73  git add hiss.txt 
+   74  git commit -m "history as of 16/08/23 at 9:35 am"
+   75  ls
+   76  ls -ltrh
+   77  exit
+   78  git status
+   79  cd git/
+   80  git status
+   81  git branch
+   82  clear
+   83  ls
+   84  cat hiss.txt 
+   85  git log
+   86  git config --global user.email "arunjv.me@gmail.com"
+   87  git config
+   88  git config --list
+   89  git config --global user.name="Arun Janarthanan"
+   90  git config --global user.name=Arun Janarthanan
+   91  clear
+   92  git branch f1
+   93  git branch
+   94  git log
+   95  clear
+   96  git switch f1 
+   97  git log
+   98  echo new > new.txt
+   99  git status
+  100  ls
+  101  ls -ltrh
+  102  clear
+  103  git status --short
+  104  git add .
+  105  git status --short
+  106  git commit -m "first commit in f1"
+  107  git status
+  108  git log
+  109  git checkout main
+  110  ls
+  111  echo newMain > newMain.txt
+  112  git add .
+  113  git commit -m "new file added to main"
+  114  git log
+  115  git merge f1
+  116  git log
+  117  ls
+  118  git log
+  119  git log --graph
+  120  git branch --delete f1
+  121  git log
+  122  clear
+  123  git branch
+  124  git status
+  125  git remote add origin https://github.com/arunjv-me/main.git
+  126  git remote -v
+  127  git branch -M main
+  128  git push -u origin main
+  129  git credential
+  130  printf "protocol=https\nhost=github.com\nusername=<me>" |   git credential-manager-core get
+  131  git push -u origin main
+  132  clear
+  133* 
+  134  git log
+  135  git pull
+  136  git log
+  137  ls
+  138  cat newMain.txt 
+  139  history > hiss.txt 
